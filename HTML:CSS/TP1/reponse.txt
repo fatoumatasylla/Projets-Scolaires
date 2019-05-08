@@ -1,0 +1,113 @@
+﻿eXERCICE 1
+<TITLE> >/TITLE>
+<BR>
+ <IMG SRC="http://sheldonbrown.com/images/scb_eagle_contact.jpeg">
+exercice 2:
+titre :Ma page perso
+2- Où apparaît le titre de la page ?
+dans l'onglet
+3- Quel est le nom du fichier de la page « Bienvenue sur ma page perso ! »
+MaPagePerso
+4- Quel est le contenu de la page « Bienvenue sur ma page perso ! »
+Bienvenue sur ma page perso !
+5- Que trouvez-vous entre <body> </body> :
+4.2 le contenu de la page ;
+EXERCICE3
+ <style type="text/css">
+  body { 
+    margin-left: 10%; 
+    margin-right: 10%; 
+    font-family: sans-serif;
+  }
+  h2,h3,h4,h5,h6 { margin-left: -3% }
+  pre {
+     color: green; font-weight: bold;
+     white-space: pre; font-family: "Courier New", monospace;
+  }
+  pre.template {
+    font-family: "Courier New", "Courier", monospace;
+    white-space: pre;
+    border-style: solid;
+    border-width: thin;
+    border-color: green;
+    color: black;
+    padding: 0.5em;
+  }
+  pre.template em { color: blue }
+  em { font-style: italic; font-weight: bold }
+  strong { text-transform: uppercase; font-weight: bold }
+  .navbar {text-align: center }</style>
+ la police en serif 
+ les titre h2,h3,h5,h6  sont en vert 
+
+EXERCICE 4
+5- Quel sera le texte affiché par le navigateur ?
+ma premiere page html
+6- Visualisez-le à l’aide de deux navigateurs web différents. Que constatez-vous ?
+c'es indentique 
+EXCERCICE 5
+
+2- Quels sont les éléments qui ne seront pas affichés par le navigateur.
+Les balises
+3- Quels sont les descendants et ascendants de la balise ol ?
+ascendants :
+body
+page
+descendants :
+li-
+li-ol-strong
+4- Quels sont ses descendants directs et ascendants directs ?
+ascendants direct:
+body
+descendants direct :
+li-
+
+exercice 6:
+<ol>
+	<ul/>
+
+		<li>Le <b>chat</b> mange la souris</li>
+		<li>Le <b>chat</b> mange la souris</li>
+		<li>Le <b>chat</b> mange la <b>souris</b></li>
+		<li>Le <b>chat</b> <i>mange</i> <b>la<b/> souris</li>
+		<li><b>Le chat</b> <i>mange>/ <b>la souris</li>
+	</ul>
+<ol>
+
+exo 8:
+Questions
+1- Quel est le rôle de la chaîne de caractère <p> ?
+il mermet d'indiquer le depbut d'un paragraphe 
+2- Quel est le rôle de la chaîne de caractère </p> ?
+indique la fermeture d'un paragraphe 
+
+
+exo 16
+
+1- Que faut-il écrire pour insérer la photo au format jpg ?
+<img src =".png" />
+2- Que faut-il écrire pour insérer l’image au format gif ?
+<img src=".gif" />
+3- Interprétez le lien <img src="images/rose.gif" />
+cela signifie que l'ilage rose se trouve dans le dossier image
+4- Caractérisez la nature du lien <a href="http://www.pdictionary.com/">
+lien rpage web 
+5- Que se passe t-il si vous cliquez sur le lien
+<a href="mailto:sylvie.despres@univ-paris13.fr"> Sylvie Despres © 2016</a>
+j'envoie un mail a sylvie
+6- Que se passe t-il si vous cliquez sur le lien
+<a href="http://www.pdictionary.com/"> Internet Picture Dictionary</a>
+on est sur le site web 
+
+exo 17
+Questions
+1- De combien de tableaux cette page est-elle composée ?
+
+1.2 deux
+
+2- De combien de lignes le premier tableau est-il constitué ?
+2 lignes
+3- De combien de cellules le premier tableau est-il constitué ?
+2 ccellules
+
+exo 18

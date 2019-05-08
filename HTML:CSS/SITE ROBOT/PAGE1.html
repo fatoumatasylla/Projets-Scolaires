@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>PlaneteROBOT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+			<article class="container box style3">
+	<header>
+	  <h2>L'évolution des ROBOTS</h2>
+					<hr />
+						
+	</header>
+		
+				
+	
+				
+				<section>
+				
+				
+				</header>
+				<h1> Que signifie "Robot" ? </h1>
+				
+	<p> Depuis l'antiquité les hommes tentent de créer des machines fonctionnant seules. Tout d'abord mécaniques,puis suite au progrès de l'électricité puis de l'électronique et de l'informatique aujourd'hui<b>la robotique </b> constitue une a une discipline à part entière.</p>			
+				
+<p>
+ <img style="float: left"  src="images/kc.jpg " alt="KC" title="robot imaginé par Karel Capek, en 1920 pour sa pièce R.U.R " /></a>
+						
+						Le terme « robot » a été créé par Karel Čapek pour sa pièce de théatre <i>Rossum’s Universal Robots </i>  de 1920. Il tire son origine du tchèque « Robota » : travail forcé. Cette idée va perdurer de nombreuses décennies, le robot est une machine pour travailler et réaliser des tâches en particulier dans les usines.<br>
+							
+							En science-fiction, l’image va demeurer longtemps celle de Frankenstein : dans la vision de l’homme, le robot est là pour servir et obéir tandis que le robot, lui, a d’autres attentes, il désire sa liberté et se révolte. 
+						L’auteur de science-fiction Isaac Asimov présente une  approche  dans le chapitre <i> Clycle fermé </i> où il crée les 3 lois de la robotique en 1942 dans la nouvelle <i>« Cercle vicieux »  </i>: 
+	<ol> 
+	<li>- Un robot ne peut porter atteinte à un être humain, ni, en restant passif, permettre qu’un être humain soit exposé au danger ;</li>
+	<li>- Un robot doit obéir aux ordres qui lui sont donnés par un être humain, sauf si de tels ordres entrent en conflit avec la première loi ;</li>
+	<li>- Un robot doit protéger son existence tant que cette protection n’entre pas en conflit avec la première ou la deuxième loi.</li>
+							
+	</ol>					
+</p>
+	
+		<article class="inner gallery">
+					<section>
+					<header>
+						<a href="#" class="image fit"><img src="images/frise.jpg" width="619" height="445
+						" alt=""/></a> <p style="text-align: center">Frise Chronologique </p>
+						
+
+						
+				</section>
+						</article>	
+			
+			
+		<h1> Les différents types de robots :</h1>	
+		<p> Les robots peuvent effectuer des tâches automatiques, mais certains sont aussi dotés d'une certaine intelligence. Leurs facultés d'adaptation nécessitent des qualités de perception dans le but d'interagir avec leur environnement. <br>
+		Au cours de l'histoire on peut distinguer <b> 3 types</b> de robots correspondant en quelques sorte à l'évolution de cette "espèce" créée par l'Homme: <br> 
+<ol class="default" >
+	<li>
+<b>Le premier type </b>  de machine que l'on peut appeler robot correspond aux "Automates". Les automates existant bien avant les robots, étaient plus limités et ne perçoivent pas leur environnement ni n'ont pas un comportement intelligent, leur programmation est très primaire. Ce sont les seules différences avec les robots. Les robots industriels seraient plutôt proches des automates.Ceux-ci sont généralement programmés à l'avance et permettent d'effectuer des actions répétitives.<br> 
+</li>
+	<li><p id="2eme"> 
+<b> Le second type</b> de robot correspond à ceux qui sont équipés de capteurs (en fait les sens du robot). On trouve des capteurs de température, photoélectronique, à ultrasons pour par exemple éviter les obstacles et/ou suivre une trajectoire. Ces capteurs vont permettrent au robot une relative adaptation à son environnement afin de prendre en compte des paramètres aléatoires qui n'aurait pu être envisagés lors de leur programmation initiale. Ces robots sont donc bien plus autonomes que les automates mais nécessitent un investissement en temps de conception et en argent plus conséquent. </p>
+</li><li>
+Enfin <b> le dernier type</b> de robot existant correspond à ceux disposant d'une intelligence dite "artificielle" et reposant sur des modèles mathématiques complexes tels que les réseaux de neurones. En plus de capteurs physiques comme leurs prédécesseurs, ces robots peuvent prendre des décisions beaucoup plus complexes et s'appuient également sur un apprentissage de leurs erreurs comme peut le faire l'être humain. Bien sûr il faudra attendre encore longtemps avant que le plus "intelligent" des robots ne soit égal, tant par sa faculté d'adaptation que par sa prise de décisions, à l'Homme.</p>	
+</li>
+			</ol>			
+			
+			<h1>Structure d'un Robot </h1>
+			<p>	
+Dans cette partie nous allons décrire l'ensemble des composantes d'un robot de 2eme génération(ceux munis de capteurs: cf <a href="#2eme">  Robot Deuxième Géneration </a>.<br> 
+
+Un robot est composé de quatres parties principales :
+			<ol class="default">
+			
+			<li> <b>Une structure mécanique  </b>qui sera le squelette du robot. Une attention particulière doit être portée aux articulations car celles-ci doivent permettrent un débattement assez important relatif à l'utlisation voulue.
+
+</li>
+				<li> Le second élément correspond aux <b>servo-moteurs  </b>qui vont permettrent au robot d'effectuer réellement ses actions. Ces servo-moteurs seront commandés par la partie commande en interaction avec les informations transmises par les capteurs. Le terme "servo" induit en effet un asservissement effectué en fonction d'une comparaison avec le résultat souhaité et la réalité extérieure. 
+</li>
+			<li>La troisième partie composante d'un robot correspond aux différents <b> capteurs </b>sensoriels équipant le robot pour une application particulière.
+
+</li>
+				<li>Enfin le cerveau : <b>La partie commande </b>. C'est cette partie qui va permettrent au robot d'analyser les données provenant des capteurs et d'envoyer les ordres relatifs aux servo-moteurs. La partie commande est matérialisée physiquement par le micro-controleur.</li>
+			
+			
+<h1> Qu'est-ce qu'un microcontrôleur ? </h1>
+<p> Le microcontroleur correspond au cerveau du robot. C'est lui qui va traiter les informations provenant des capteurs et qui va donner la réponse voulue aux servo-moteurs.<br> 
+
+Le microcontroleur est composé de quatre parties :
+
+<b> Un microprocesseur</b> qui va prendre en charge la partie traitement des informations et envoyer des ordres. <br>
+<b>Une mémoire de données (RAM ou EEPROM) </b>
+ dans laquelle seront entreposées les données temporaires nécessaires aux calculs. elle est dite volatile
+
+<b>Une mémoire programmable (ROM) </b>, qui va contenir les instructions du programme pilotant l'application à laquelle le microcontroleur est dédié. la mémoire est non volatile puisque le programme à exécuter est à toujours le même. <br> 
+
+La dernière partie correspond aux <b> ressources auxiliaires</b>. Celles-ci sont généralement :
+- Ports d'entrées / sorties parallèle et série.
+- Des timers pour générer ou mesurer des signaux avec une grande précision temporelle.
+- Des convertisseurs A/N pour traiter les signaux analogiques.<br>
+
+</p>	
+<h1> Programation d'un Microcontrôleur</h1>			
+<p> 	
+La principale différence entre le microcontroleur et le microprocesseur est qu'en plus de posséder une unité de calcul, le microcontrôleur possède en interne le programme qu'il devra effectuer en fonction de l'application pour lequel il a été conçu. Ce mode de fonctionnement convient particulièrement bien aux applications dites "embarquées" où l'Homme ne pourra pas intervenir directement et ou le comportement souhaité de la machine est défini à l'avance. Différents objets coutumiers tels que le clavier d'ordinateur ou la souris possède un mocrocontrôleur.<br>
+
+Ainsi donc pour programmer le microcontrôleur, il est possible d'utiliser différents langages de programmations de haut niveau, tels que:
+<br>
+
+C,
+C++,
+JAVA.
+	<br>
+Le programme réalisé dans le langage de haut niveau est compilé dans le langage assembleur conçu par le constructeur du microcontroleur. Puis ce programme ainsi compilé sera injecté du PC dans la mémoire programmable du microcontroleur.
+
+Un logiciel de programmation haut niveau couramment utilisé pour la programmation de micro-robot est JETPROG de la société lextronic.</p>
+			
+			</ul>
+			
+			
+			
+			
+			</p>
+<article class="photos2" class="container box style2"> 
+			<div class="inner gallery">
+					<div class="row 0%">
+						<div class="3u 12u(mobile)"><a href="images/Automate.jpg" class="image fit"><img src="images/Automate.jpg" alt="" title="Automate" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/2eme.jgg" class="image fit"><img src="images/2eme.jpg" alt="" title="Deuxième Gérération" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/3eme.jpg" class="image fit"><img src="images/3eme.jpg" alt="" title="Raven" /></a></div>
+						<div class="3u 12u(mobile)"> <a href="images/M1.jpg" class="image fit"> <img src="images/M1.jpg" alt="" title="Microcontrôleur" /> </a>
+						</div>
+					</div>
+			
+			
+			</article>
+		 	
+
+					
+					
+<p>
+<ul>
+	
+	
+	
+	
+	
+	
+	
+	</ul>
+</p>
+				</section>
+							
+	<section>
+	<hr />
+							
+	<div> <h1> Liens Utiles </h1>
+								<p><ul>
+						<li><a href="https://home.mis.u-picardie.fr/~furst/docs/Histoire_robotique.pdf " > Histoire de la robotique </a></li>
+		
+		<li>
+		 <a href="http://www.dailymotion.com/cdn/manifest/video/x2u6uxc.m3u8?auth=1513470982-2688-zza40nee-299f37bdb9d03068f23ce3637a222d3b"> Récap Vidéo  </a>
+		
+		</li>
+		
+		<li> <a href="http://www.futura-sciences.com/tech/actualites/robotique-dossier-robotique-a-z-28784/" > Dossier: la robotique de A à Z </a></li>
+								
+			<li> <a href="https://vieartificielle.com/vivatech-2017-robot-se-diversifie"> Le Robot se diversifie </a></li>					
+				</ul> </p>
+							</div>
+<p style="text-align: right"><a href=index.html >  Retour à l'accueil</a></p>
+	
+</article>	
+
+									
+		<section id="footer">
+			
+			<div class="copyright">
+				<ul class="menu">
+					<li>&copy; BBTSSIO-LycéeRenéDescartes. All rights reserved.</li>
+				</ul>
+			</div>
+		</section>						
+	
+
+									
+		
+			
+	
+
+	<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>		
+						
+					
+				<!-- tableau 
+					<header>
+						<h3>Table</h3>
+					</header>
+					<div class="table-wrapper">
+						<table class="default">
+							<thead>
+								<tr>
+									<th>ID</th>
+									<th>Name</th>
+									<th>Description</th>
+									<th>Price</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>45815</td>
+									<td>Something</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>24524</td>
+									<td>Nothing</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>19.99</td>
+								</tr>
+								<tr>
+									<td>45815</td>
+									<td>Something</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>29.99</td>
+								</tr>
+								<tr>
+									<td>24524</td>
+									<td>Nothing</td>
+									<td>Ut porttitor sagittis lorem quis nisi ornare.</td>
+									<td>19.99</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr>
+									<td colspan="3"></td>
+									<td>100.00</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</section>
+				
+			</article>
+
+
+ -->
+
+<!-- Portfolio
+			<article class="container box style3">
+				<header>
+					<h2>Magnis parturient</h2>
+					<p>Justo phasellus et aenean dignissim<br />
+					placerat cubilia purus lectus.</p>
+				</header>
+				<div class="inner gallery">
+					
+					<div class="row 0%">
+						<div class="3u 12u(mobile)"><a href="images/fulls/05.jpg" class="image fit"><img src="images/thumbs/05.jpg" alt="" title="Cherish" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" alt="" title="Different." /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/07.jpg" class="image fit"><img src="images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>
+						<div class="3u 12u(mobile)"><a href="images/fulls/08.jpg" class="image fit"><img src="images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>
+					</div>
+				</div>
+			</article>
+-->
+		
